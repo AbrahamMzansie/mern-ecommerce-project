@@ -1,0 +1,43 @@
+/*.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 500;
+  border-bottom: 1px solid #cecece;
+}
+*/
+.btn {
+  background-color: #2874f0;
+}
+.productContainer {
+  width: 200px;
+  margin : 0 10px;
+}
+.productContainer .productImgContainer {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  text-align: center;
+  margin : 10px auto;
+}
+.productContainer .productImgContainer img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  
+}
+.productInfo{
+    text-align: center;
+    font-size: 14px;
+    color: #212121;
+    line-height: 1.4;
+
+}
+
+.productPrice{
+    font-size: 16px;
+    font-weight: 500;
+    color: #212121;
+}
